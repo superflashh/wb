@@ -1,0 +1,127 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111111; /* Fondo global más oscuro */
+}
+
+/* Header */
+header {
+    background-color: #333333; /* Negro claro */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Hero Section */
+.hero {
+    background: url('natiiiiiiiiiiiii.jpg') no-repeat center center/cover;
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Botón */
+.hero .btn {
+    background-color: #004aad;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Planes de Internet */
+.planes {
+    background-color: #222222; /* Fondo oscuro para la sección de planes */
+    padding: 50px;
+    text-align: center;
+}
+
+.planes .plan {
+    border: 1px solid #444; /* Bordes oscuros */
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    background-color: #333333; /* Color oscuro para los planes */
+    color: white;
+}
+
+.planes .precio {
+    font-size: 1.5rem;
+    color: #00ccff; /* Color llamativo para el precio */
+}
+
+.planes h2 {
+    color: white;
+}
+
+/* Servicios adicionales */
+.servicios {
+    background-color: #111111; /* Fondo oscuro */
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* Contacto */
+.contacto {
+    background-color: #222222; /* Fondo oscuro para el contacto */
+    padding: 50px;
+    color: white;
+}
+
+.contacto form label, 
+.contacto form input, 
+.contacto form textarea {
+    color: white;
+    width: 100%;
+    background-color: #333333; /* Campos oscuros */
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contacto form button {
+    background-color: #004aad;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #000000; /* Fondo negro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
